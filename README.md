@@ -21,6 +21,15 @@
 
 > **OpenCLIApp 桌面版**最近一次公开发布是 2026 年 8 月的 `0.1.38`。截至 2026 年 11 月 25 日，约三个月未见桌面版公开更新。后续维护情况，以及它与新版 Chrome、Browser Bridge 扩展配合时的稳定性，仍不明确。 [桌面版发布记录](https://github.com/jackwener/opencli-website/releases/tag/app-v0.1.38)
 
+## 文献下载注意事项
+
+> [!WARNING]
+> 学生和研究人员在下载前，请自行查阅所在学校或研究单位的电子资源使用文件，并遵守单位和数据库平台的规定。先确认是否允许自动下载，以及适用的下载频率和数量限制。
+>
+> 短时间内大量下载文献，可能触发中国知网（CNKI）暂停下载或冻结账号。学校或研究单位也可能按规定封禁账号或暂停电子资源访问权限。 [中国知网会员服务使用协议](https://wap.oversea.cnki.net/cn/member/agreement.html) · [高校图书馆违规处理规则示例](https://library.sdu.edu.cn/page/id-232.html)
+>
+> 本项目为开源程序。对于因使用本项目超量下载或违反相关规定而导致的知网账号、学校账号被封禁，本项目概不负责。
+
 ## 致谢
 
 - 感谢 **Rimagination** 和 ScanSci PDF 的贡献者。这个 Skill 的全文获取流程，最早是从试用该项目的经历中逐步整理出来的。 [ScanSci PDF](https://github.com/Rimagination/scansci-pdf)

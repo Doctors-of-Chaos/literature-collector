@@ -1,5 +1,7 @@
 # 用 OpenCLIApp 下载机构全文
 
+下载前查看所在学校或研究单位及数据库平台的规定，确认是否允许自动下载及适用的频率和数量限制。遇到下载频率超限、账号冻结或访问被限制的提示时，暂停该平台的下载。 [下载风险说明](https://github.com/Doctors-of-Chaos/literature-collector#文献下载注意事项)
+
 公开 PDF 实测组合为 OpenCLIApp `0.1.38`（自带 `opencli` `1.8.6`）和 Browser Bridge `1.0.27`。首次接入图书馆后先下载一篇，确认 PDF 能打开并读到正文。
 
 1. 安装并打开 OpenCLIApp，使用它配套的 `opencli` 命令。在要访问图书馆的 Chrome 用户配置中，单独安装商店里名为「OpenCLI」的 Browser Bridge 扩展。运行 `opencli doctor`，确认输出含 `Extension: connected`。附带的保存脚本需要 Python 3。 [官方 App 下载](https://opencli.info/download/) · [GitHub 安装包镜像](https://github.com/jackwener/opencli-website/releases/latest) · [Chrome 扩展](https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaediidaifkhjpohdnifk)
