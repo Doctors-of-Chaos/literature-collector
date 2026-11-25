@@ -15,7 +15,7 @@
 跑完「检索 → 下载机构全文 → 自动存进 Zotero」需要下面两项。
 
 - **Zotero 桌面端 + Zotero MCP**。从 `cookjohn/zotero-mcp` 的 Releases 下载 `.xpi`，在 Zotero 的「工具 → 附加组件」中安装。重启 Zotero，在插件设置中启用 MCP 服务，并把插件生成的客户端配置加到你的 Agent。自动查重、入库和挂 PDF 都通过这条连接。 [Zotero MCP 仓库](https://github.com/cookjohn/zotero-mcp) · [插件安装包](https://github.com/cookjohn/zotero-mcp/releases)
-- **OpenCLIApp + Chrome + OpenCLI Browser Bridge 扩展**。使用 App 自带的 `opencli`，在已登录图书馆的 Chrome 用户配置中启用扩展。附带的 PDF 保存脚本需要 Python 3。这里分享的是我平时用的流程，第一次先试一篇，确认能保存、打开并读到正文。 [官方 App 下载](https://opencli.info/download/) · [GitHub 安装包镜像](https://github.com/jackwener/opencli-website/releases/latest) · [下载步骤](literature-collector/references/opencli-pdf.md)
+- **OpenCLIApp + Chrome + OpenCLI Browser Bridge 扩展**。先安装并打开 OpenCLIApp，再在用来登录图书馆的 Chrome 用户配置中单独安装商店里名为「OpenCLI」的扩展。使用 App 自带的 `opencli`，运行 `opencli doctor`，看到 `Extension: connected` 后再开始。附带的 PDF 保存脚本需要 Python 3。 [官方 App 下载](https://opencli.info/download/) · [GitHub 安装包镜像](https://github.com/jackwener/opencli-website/releases/latest) · [Chrome 扩展](https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaediidaifkhjpohdnifk) · [下载步骤](literature-collector/references/opencli-pdf.md)
 
 只查公开数据库可以直接用。Zotero MCP 尚未连接时，可以先导出 RIS，再手动导入 Zotero。PDF 目录、机构入口和收藏夹都由使用者指定。
 
