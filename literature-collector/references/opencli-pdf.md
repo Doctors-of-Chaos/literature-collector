@@ -1,6 +1,6 @@
 # 用 OpenCLIApp 下载机构全文
 
-1. 安装并打开 OpenCLIApp，使用它配套的 `opencli` 命令。在要访问图书馆的 Chrome 用户配置中安装 OpenCLI Browser Bridge 扩展。确认 `opencli doctor` 显示浏览器已连通。附带的保存脚本需要 Python 3。 [OpenCLIApp 下载](https://opencli.info/download/) · [Browser Bridge 安装说明](https://github.com/jackwener/OpenCLI#2-install-the-browser-bridge-extension)
+1. 安装并打开 OpenCLIApp，使用它配套的 `opencli` 命令。下方示例沿用 App 配套的命令格式。在要访问图书馆的 Chrome 用户配置中安装 OpenCLI Browser Bridge 扩展。确认 `opencli doctor` 显示浏览器已连通。附带的保存脚本需要 Python 3。 [官方 App 下载](https://opencli.info/download/) · [GitHub 安装包镜像](https://github.com/jackwener/opencli-website/releases/latest) · [Browser Bridge 安装说明](https://github.com/jackwener/OpenCLI#2-install-the-browser-bridge-extension)
 2. 通过自己的图书馆入口，在 Chrome 中打开出版社的**论文正文页面**。需要登录或验证码时，在 Chrome 中操作。多套 Chrome 用户配置同时连接时，按本机 `opencli profile --help` 选择刚登录图书馆的那套。
 3. 把 Chrome 切到这篇论文的 HTML 标签页，用一个会话名接手它。根据页面显示核对题名，并从 PDF 按钮或链接取得实际地址。若是代理改写过的地址，保留其域名和查询参数。临时链接仅用于本次下载，结果清单使用 DOI 或论文页面链接。
 
