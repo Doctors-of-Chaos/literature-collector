@@ -19,8 +19,12 @@
 
 只查公开数据库可以直接用。Zotero MCP 尚未连接时，可以先导出 RIS，再手动导入 Zotero。PDF 目录、机构入口和收藏夹都由使用者指定。
 
+> **OpenCLIApp 桌面版**最近一次公开发布是 2026 年 8 月的 `0.1.38`。截至 2026 年 11 月 25 日，约三个月未见桌面版公开更新。后续维护情况，以及它与新版 Chrome、Browser Bridge 扩展配合时的稳定性，仍不明确。 [桌面版发布记录](https://github.com/jackwener/opencli-website/releases/tag/app-v0.1.38)
+
 ## 致谢
 
-感谢 [ScanSci PDF](https://github.com/Rimagination/scansci-pdf) 的作者 Rimagination 和贡献者。这个 Skill 的全文获取流程，最早是从试用 ScanSci PDF 的经历中逐步整理出来的。
+- 感谢 **Rimagination** 和 ScanSci PDF 的贡献者。这个 Skill 的全文获取流程，最早是从试用该项目的经历中逐步整理出来的。 [ScanSci PDF](https://github.com/Rimagination/scansci-pdf)
+- 感谢 **jackwener** 和 OpenCLI 项目的贡献者。OpenCLIApp 和 Browser Bridge 让这个流程能复用 Chrome 里的图书馆登录。 [OpenCLI](https://github.com/jackwener/OpenCLI) · [OpenCLIApp](https://opencli.info/download/)
+- 感谢 **cookjohn** 和 Zotero MCP 的贡献者。这个插件提供了查询 Zotero、保存题录和挂载 PDF 的接口。 [Zotero MCP](https://github.com/cookjohn/zotero-mcp)
 
 本项目采用 [MIT 许可证](LICENSE)。
